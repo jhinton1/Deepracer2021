@@ -46,12 +46,32 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 </p>
 
 ## Development
-I'd like to preface this piece by informing you that prior to the Deepracer event, my expertise of AI/ML was limited to a handful of YouTube videos. The end outcome of my experimentation was a set of 25 trained models and a newfound respect for AI/ML.
+I'd like to preface this section by informing you that prior to the Deepracer event, my expertise of AI/ML was limited to a handful of YouTube videos. The end outcome of my experimentation was a set of 25 trained models and a newfound respect for AI/ML.
 
 ### Initial Model
+I ran a simple Python reward function provided by AWS to familiarize myself with the concept of Deepracer models. I ran my model on Kuei Raceway for two hours; the reward graph is below.
+
+<p align="center">
+<img src="img/simple_track.png" width=80%>
+</p>
+
+The sub-rewards can be seen in this code snippet from [reward_simple.py](reward/dev/reward_simple.py):
+
+```python
+   # Give a very low reward by default
+    reward = 1e-3
+
+    # Give a high reward if no wheels go off the track and
+    # the agent is somewhere in between the track borders
+    if all_wheels_on_track and (0.5*track_width - distance_from_center) >= 0.05:
+        reward = 1.0
+
+```
+
+
 
 ### Qualifier Model
-#### Defining the action space
+The organizers informed participants that all qualifiers and the Finals would be held on the Track - Asia Pacific Bay Loop - Building, which meant that I could begin training my models exclusively on that track.
 
 #### Developing the reward function
 
