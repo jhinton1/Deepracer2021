@@ -69,9 +69,23 @@ The sub-rewards can be seen in this code snippet from [reward_simple.py](reward/
 ```
 
 
-
 ### Qualifier Model
-The organizers informed participants that all qualifiers and the Finals would be held on the Track - Asia Pacific Bay Loop - Building, which meant that I could begin training my models exclusively on that track.
+The organizers informed participants that all qualifiers and the Finals would be held on the Track - Asia Pacific Bay Loop - Building, which meant that I could begin training my models exclusively on that track. Another fantastic feature of AWS DeepRacer is the ability to clone old models into new ones that keep the training data from the previous model. This enables the use of multiple reward functions to provide a cumulative advantage over a single reward function model.
+
+#### Tuning Hyperparameters 
+Tuning the neural network's hyperparameters was critical to ensuring the model was trained in a reasonable amount of time. Between training sessions, I would analyze the reward graph and the Amazon Kinesis video stream of the evaluation runs to determine whether hyperparameters needed to be modified. Training sessions lasted 2-5 hours depnding on the stability of the most recent model, and the hyperparameters selected.
+
+The average percentage completion rate during evaluation was the most relevant indicator for tuning (the red points in the reward graph). These indicated the distance traveled by the car before veering off course during evaluation runs. Early in the training phase, it was advantageous to prioritize action space exploration via faster learning. 
+
+<p align="center">
+<img src="img/qualifier_reward_graph_fast.png" width=50%>
+</p>
+
+As the model improved and our focus shifted to fine-tuning our driving technique for increased speed and reliability, I aimed to stabilize learning. This was accomplished primarily by decreasing the learning rate and increasing the gradient descent batch size, epochs, and experience episodes between each policy-updating iteration. The reward curve below is from one of our recent qualifying model training sessions and indicates more steady learning.
+
+<p align="center">
+<img src="img/qualifier_reward_graph_stable.png" width=50%>
+</p>
 
 #### Developing the reward function
 
