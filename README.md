@@ -52,7 +52,7 @@ I'd like to preface this section by informing you that prior to the Deepracer ev
 I ran a simple Python reward function provided by AWS to familiarize myself with the concept of Deepracer models. I ran my model on Kuei Raceway for two hours; the reward graph is below.
 
 <p align="center">
-<img src="img/simple_tracks.png" width=46%>
+<img src="img/simple_tracks.png" width=65%>
 </p>
 
 The sub-rewards can be seen in this code snippet from [reward_simple.py](reward/dev/reward_simple.py):
