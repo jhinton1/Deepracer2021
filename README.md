@@ -15,13 +15,16 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 Results
 USYD 2020 Finals (1st Place)
 
-Mp4 FOR CAR
+Gif FOR CAR
 <p align="center">
-<img src="img/fastest_lap.mp4">
+<img src="img/finishline.gif">
 </p>
 
 
-
+### About me
+<p align="center">
+<a href="https://www.linkedin.com/in/josh-hinton/"><img src="img/linkedin_profile_jh.png" width="45%"></a>
+</p>
 
 
 
