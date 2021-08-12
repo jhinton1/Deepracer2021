@@ -89,7 +89,8 @@ As the model improved and my focus shifted to fine-tuning the driving technique 
 
 #### Developing the reward function
 
-Waypoints
+I was able to create a model that was capable of consistently completing the track and then continued to develop on top of the basic function. The only thing missing was speed, which is a key model characteristic.
+
 ```python
 def reward_function(params):
 
@@ -142,7 +143,9 @@ def reward_function(params):
     return speed_reward + heading_reward + steering_reward
 ```
 
-Gauss curve
+## Gauss curve
+Due to many of the training videos displaying my car zig-zagging, I utilized a DeepRacer reward function that rewards the car for driving in the center of the road. Following some additional investigation into possible explanations for the car's inability to maintain center, I came across an article stressing the importance of a balanced reward function. This implies that the function must be symmetrical. A Gauss curve satisfies all of these conditions.
+
 ```python
   
   # reward function as Gauss curve with the variable distance_from_center
