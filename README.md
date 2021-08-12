@@ -44,5 +44,13 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 <img src="img/qualifier_results.png" width="38%">
 </p>
 
+## Development
+### Qualifier Model
+#### Defining the action space
 
+#### Developing the reward function
 
+### Finals Model
+#### Redefining the action space
+
+## Conclusion
