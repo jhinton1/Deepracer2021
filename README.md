@@ -15,9 +15,9 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 Results
 USYD 2020 Finals (1st Place)
 
-Gif FOR CAR
+
 <p align="center">
-<img src="img/finishline.gif">
+<img src="img/finish_line.gif">
 </p>
 
 
