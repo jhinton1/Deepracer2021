@@ -158,7 +158,7 @@ Due to many of the training videos displaying my car zig-zagging, I utilized a
 #### Redefining the action space
 The final track was the Asia Pacific Bay Loop - Building, which features lengthy straightaway sections. It became obvious early on that my qualification model would need to be faster in order to finish the race and earn a higher position in the Finals.
 <p align="center">
-<img src="img/finals_track.png" width=40%>
+<img src="img/finals_track.png" width=30%>
 </p>
 
 I added a reward to the overall function to encourage less steering and a fast action 
