@@ -183,5 +183,7 @@ It was thrilling and interesting to use machine learning in DeepRacer. This was
 
 ## Resources
 "[AWS DeepRacer Expert Boot Camp](https://www.youtube.com/watch?v=BUMbqn4NqQA&ab_channel=AWSDeepRacerCommunity)"
+<br>
 "[AWS DeepRacer](https://aws.amazon.com/deepracer/)"
+<br>
 "[How to win AWS DeepRacer](https://medium.com/axel-springer-tech/how-to-win-aws-deepracer-ce15454f594a)"
