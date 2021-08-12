@@ -31,7 +31,7 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
   - [Qualifier Model](#Qualifier-Model)
   - [Finals Model](#Finals-Model)
 - [Conclusion](#Conclusion)
-
+- [Resources](#Resources)
 ## Results
 ### AWS Intern LIVE Finale 2021 (15th Place)
 #### Track - Asia Pacific Bay Loop - Buildings
@@ -179,3 +179,9 @@ I discovered that overly complex reward functions and/or a large number of free 
 </p>
 
 ## Conclusion
+It was thrilling and interesting to use machine learning in DeepRacer. This was a fun project that I did alongside my education and job responsibilities. This was the first time I used reinforcement learning algorithms on actual problems. If I do get in as a recreational hobby, I will likely want to conduct additional research on the potential of offline training as well as learn more about how DeepRacer's training algorithm works.
+
+## Resources
+[AWS DeepRacer Expert Boot Camp](https://www.youtube.com/watch?v=BUMbqn4NqQA&ab_channel=AWSDeepRacerCommunity)
+[AWS DeepRacer](https://aws.amazon.com/deepracer/)
+[How to win AWS DeepRacer](https://medium.com/axel-springer-tech/how-to-win-aws-deepracer-ce15454f594a)
