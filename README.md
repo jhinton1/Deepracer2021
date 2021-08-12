@@ -156,5 +156,9 @@ Due to many of the training videos displaying my car zig-zagging, I utilized a
 
 ### Finals Model
 #### Redefining the action space
+The final track was the Asia Pacific Bay Loop - Building, which features lengthy straightaway sections. It became obvious early on that my qualification model would need to be faster in order to finish the race and earn a higher position in the Finals.
+<p align="center">
+<img src="img/finals_track.png" width=40%>
+</p>
 
 ## Conclusion
