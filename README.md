@@ -143,7 +143,7 @@ def reward_function(params):
     return speed_reward + heading_reward + steering_reward
 ```
 
-## Gauss curve
+# Gauss curve
 Due to many of the training videos displaying my car zig-zagging, I utilized a DeepRacer reward function that rewards the car for driving in the center of the road. Following some additional investigation into possible explanations for the car's inability to maintain center, I came across an article stressing the importance of a balanced reward function. This implies that the function must be symmetrical. A Gauss curve satisfies all of these conditions.
 
 ```python
