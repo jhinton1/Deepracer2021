@@ -14,13 +14,13 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 
 
 <p align="center">
-<img src="img/finish_line.gif" width="45%">
+<img src="img/finish_line.gif" width="40%">
 </p>
 
 
 ### About me
 <p align="center">
-<a href="https://www.linkedin.com/in/josh-hinton/"><img src="img/linkedin_profile_jh.png" width="45%"></a>
+<a href="https://www.linkedin.com/in/josh-hinton/"><img src="img/linkedin_profile_jh.png" width="30%"></a>
 </p>
 
 ### Contents
@@ -36,13 +36,13 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 ### AWS Intern LIVE Finale 2021 (15th Place)
 #### Track - Asia Pacific Bay Loop - Buildings
 <p align="center">
-<img src="img/final_results.png" width="38%">
+<img src="img/final_results.png" width="40%">
 </p>
 
 ### AWS Interns Qualifier 2021 (15th Place)
 #### Track - Asia Pacific Bay Loop - Buildings
 <p align="center">
-<img src="img/qualifier_results.png" width="38%">
+<img src="img/qualifier_results.png" width="40%">
 </p>
 
 ## Development
