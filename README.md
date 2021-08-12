@@ -35,13 +35,13 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 ### AWS Intern LIVE Finale 2021 (15th Place)
 #### Track - Asia Pacific Bay Loop - Buildings
 <p align="center">
-<img src="img/final_results.png" width="70%">
+<img src="img/final_results.png" width="38%">
 </p>
 
 ### AWS Interns Qualifier 2021 (15th Place)
 #### Track - Asia Pacific Bay Loop - Buildings
 <p align="center">
-<img src="img/qualifier_results.png" width="70%">
+<img src="img/qualifier_results.png" width="38%">
 </p>
 
 
