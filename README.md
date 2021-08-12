@@ -144,14 +144,11 @@ def reward_function(params):
 
 Gauss curve
 ```python
-# Implement speed incentive
-go_fast = select_speed(waypoints, closest_waypoints, FUTURE_STEP, MID_STEP)
-
-if go_fast and speed > SPEED_THRESHOLD:
-    reward += 0.5
-
-elif not go_fast and speed < SPEED_THRESHOLD:
-    reward += 0.5  
+  
+  # reward function as Gauss curve with the variable distance_from_center
+  reward = (1 / (math.sqrt(2 * math.pi * (track_width*2/15) ** 2)) * math.exp(-((distance_from_center + track_width/10) ** 2 / (4 * track_width*2/15) ** 2))) *(track_width*2/3)
+  
+  return float(reward)
 ```
 
 ### Finals Model
