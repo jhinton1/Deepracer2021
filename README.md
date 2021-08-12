@@ -23,6 +23,13 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 <a href="https://www.linkedin.com/in/josh-hinton/"><img src="img/linkedin_profile_jh.png" width="45%"></a>
 </p>
 
+### Contents
+- [About](#About)
+- [Results](#Results)
+- [Development](#Development)
+  - [Qualifier Model](#Qualifier-Model)
+  - [Finals Model](#Finals-Model)
+- [Conclusion](#Conclusion)
 
 
 
