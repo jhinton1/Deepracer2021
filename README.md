@@ -14,7 +14,7 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 
 
 <p align="center">
-<img src="img/finish_line.gif">
+<img src="img/finish_line.gif" width="45%">
 </p>
 
 
