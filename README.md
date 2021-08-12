@@ -46,7 +46,7 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 </p>
 
 ## Development
-I'd like to preface this section by informing you that prior to the Deepracer event, my expertise of AI/ML was limited to a handful of YouTube videos. The end outcome of my experimentation was a set of 25 trained models and a newfound respect for AI/ML.
+I would like to preface this section by informing you that prior to the Deepracer event, my expertise of AI/ML was limited to a handful of YouTube videos. The end outcome of my experimentation was a set of 25 trained models and a newfound respect for AI/ML.
 
 ### Initial Model
 I ran a simple Python reward function provided by AWS to familiarize myself with the concept of Deepracer models. I ran my model on Kuei Raceway for two hours; the reward graph is below.
@@ -159,6 +159,23 @@ Due to many of the training videos displaying my car zig-zagging, I utilized a
 The final track was the Asia Pacific Bay Loop - Building, which features lengthy straightaway sections. It became obvious early on that my qualification model would need to be faster in order to finish the race and earn a higher position in the Finals.
 <p align="center">
 <img src="img/finals_track.png" width=40%>
+</p>
+
+I added a reward to the overall function to encourage less steering and a fast action 
+```python
+ # aditional reward if the car is not steering too much
+    reward *= steering_reward
+
+    # reward for the car taking fast actions (speed is in m/s)
+    reward *= math.sin(speed/math.pi * 5/6)
+    
+    # same reward for going slow with greater steering angle then going fast straight ahead 
+    reward *= math.sin(0.4949 * (0.475 * (speed - 1.5241) + 0.5111 * steering_angle ** 2))
+```
+I let my model to train exclusively on the track I knew would be used for the race. the final training period took place over 9 hours resulting in an overfitted model.
+I discovered that overly complex reward functions and/or a large number of free steering parameters set via the AWS interface result in an unstable model that is incapable of completing the tracks during evaluation rounds. During the race, however, I saw that the car defaults to the lowest speed defined by the model parameters, 0.5 m/s. In retrospect, I should have utilized simpler functions in conjunction with a higher speed parameter model.
+<p align="center">
+<img src="img/finals_model.png" width=40%>
 </p>
 
 ## Conclusion
