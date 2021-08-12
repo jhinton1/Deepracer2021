@@ -27,6 +27,7 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 - [About](#About)
 - [Results](#Results)
 - [Development](#Development)
+  - [Initial Model](#Initial-Model)
   - [Qualifier Model](#Qualifier-Model)
   - [Finals Model](#Finals-Model)
 - [Conclusion](#Conclusion)
@@ -45,6 +46,10 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
 </p>
 
 ## Development
+I'd like to preface this piece by informing you that prior to the Deepracer event, my expertise of AI/ML was limited to a handful of YouTube videos. The end outcome of my experimentation was a set of 25 trained models and a newfound respect for AI/ML.
+
+### Initial Model
+
 ### Qualifier Model
 #### Defining the action space
 
