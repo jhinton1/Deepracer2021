@@ -12,9 +12,6 @@
 This README describes my strategy for competing in the AWS Intern LIVE DeepRacer competition. This was an AWS Early Career Talent competition that gave interns the opportunity to create and train a DeepRacer model. Racers competed for the opportunity to win AWS DeepRacer merch. It was important to establish an action space, create a reward function for reinforcement learning, and experiment with various hyperparameters regulating the underlying 3-layer neural network during the model's development.
 
 
-Results
-USYD 2020 Finals (1st Place)
-
 
 <p align="center">
 <img src="img/finish_line.gif">
