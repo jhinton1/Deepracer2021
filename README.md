@@ -32,10 +32,21 @@ This README describes my strategy for competing in the AWS Intern LIVE DeepRacer
   - [Finals Model](#Finals-Model)
 - [Conclusion](#Conclusion)
 
+<div class="container">
+			<div style="background-color: red;">
+				<h2>Column 1</h2>
+				<p>blah blah blah</p>
+			</div>
+			<div style="background-color: blue">
+				<h2>Column 2</h2>
+				<p>blah blah blah</p>
+			</div>			
+		</div>
+
 ## Results
 ### AWS Intern LIVE Finale 2021 (15th Place)
 #### Track - Asia Pacific Bay Loop - Buildings
-<p align="center">
+<p align="">
 <img src="img/final_results.png" width="40%">
 </p>
 
